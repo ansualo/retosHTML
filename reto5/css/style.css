@@ -1,0 +1,37 @@
+body{
+    display: inline-block;
+}
+
+div{
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial;
+    padding: 4px;
+}
+.header{
+    background: rgb(255, 191, 71); 
+    font-size: large;
+    font-weight: bold;
+}
+.mainContent{
+    background: lightgoldenrodyellow;
+}
+.firstHeading{
+    font-style: italic;
+    font-weight: bold;
+    font-size: x-large;
+    color:blue;
+}
+.secondHeading{
+    font-weight: bold;
+    color: darkblue;
+}
+.thirdHeading{
+    font-style: italic;
+    color: blue;
+}
+.recipeInfo{
+    display:flex
+
+}
+ul{
+    list-style:none
+}
