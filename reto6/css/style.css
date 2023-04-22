@@ -1,0 +1,88 @@
+body{
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100%;
+    border: 0.7em solid rgba(174, 173, 173, 0.578);
+    border-radius: 30px;
+    margin: 0;
+}
+
+.image{
+    background-image: url("../img/panoramica.jpg"); 
+    width: 95%;
+    height: 12em;
+    margin-top: 1em;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size:contain;
+}
+
+.mainHeader{
+    display: flex;
+    justify-content:center;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.mainHeader1{
+    color: olive;
+    margin-right: 1em;
+}
+.mainHeader2{
+    color:brown;
+}
+
+.mainContent{
+    display:inline-flex;
+}
+
+li{
+    text-align: center;
+    font-weight: bold;
+    height: 2em;
+    width: 7.5em;
+    padding-top: 0.5em;
+    margin: 0.7em;
+    background-image: linear-gradient(rgba(156, 178, 111, 0.886), rgb(42, 58, 11));
+    color: white;
+    list-style: none;
+}
+.inicio , .especies{
+    background-image: linear-gradient(rgba(241, 193, 150, 0.878), rgb(106, 40, 13) );
+}
+
+a{
+    color: inherit;
+    text-decoration: none
+}
+
+li:hover{
+    font-size: larger;
+    background-image: linear-gradient(rgb(111, 170, 178), rgb(8, 42, 45));
+}
+
+.content{
+    padding: 2em;
+    border: 2px solid;
+    border-image: linear-gradient(to bottom, rgb(57, 56, 56) 20%, rgb(181, 179, 179) 50%) 1 1;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.834), rgba(183, 182, 182, 0.61));
+    margin: 3em;
+    font-size: small;
+}
+
+.firstHeading{
+    color: olive;
+    font-weight: bold;
+    font-size: 2em;
+    border-bottom: 0.08em solid rgb(86, 84, 84);
+}
+.secondHeading{
+    color: rgb(154, 66, 31);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.footer{
+    color: rgba(119, 136, 153, 0.536);
+    font-size: x-small;
+    font-weight: bold;
+    text-align: center
+}
